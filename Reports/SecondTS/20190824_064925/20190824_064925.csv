@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SecondTS,Firefox 68.0,,,2019-08-24 06:50:33,2019-08-24 06:51:48,1m - 15.156s,INCOMPLETE
+,,,,,,,
+Test Cases/1- logIn/3-WrongTC,Firefox 68.0,,,2019-08-24 06:50:34,2019-08-24 06:50:51,17.641s,FAILED
+"openBrowser("""")",Firefox 68.0,,,2019-08-24 06:50:35,2019-08-24 06:50:46,11.322s,PASSED
+"navigateToUrl(""http://is2host.com/watch/"")",Firefox 68.0,,,2019-08-24 06:50:46,2019-08-24 06:50:51,4.665s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/a_""))",Firefox 68.0,,,2019-08-24 06:50:51,2019-08-24 06:50:51,0.746s,FAILED
+,,,,,,,
+Test Cases/1- logIn/4-EmptyTC,Firefox 68.0,,,2019-08-24 06:50:51,2019-08-24 06:51:48,56.752s,FAILED
+"openBrowser("""")",Firefox 68.0,,,2019-08-24 06:50:52,2019-08-24 06:51:04,11.431s,PASSED
+"navigateToUrl(""http://is2host.com/watch/"")",Firefox 68.0,,,2019-08-24 06:51:04,2019-08-24 06:51:09,5.702s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/a_""))",Firefox 68.0,,,2019-08-24 06:51:09,2019-08-24 06:51:13,3.714s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/button_""))",Firefox 68.0,,,2019-08-24 06:51:13,2019-08-24 06:51:13,0.354s,PASSED
+"setText(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/input__name""), ""admin@admin.com"")",Firefox 68.0,,,2019-08-24 06:51:13,2019-08-24 06:51:14,0.241s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/button_""))",Firefox 68.0,,,2019-08-24 06:51:14,2019-08-24 06:51:14,0.337s,PASSED
+"setText(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/input__name""), ""admin@admin.com"")",Firefox 68.0,,,2019-08-24 06:51:14,2019-08-24 06:51:14,0.200s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/input__pass""), ""J77/+yOrUGs="")",Firefox 68.0,,,2019-08-24 06:51:14,2019-08-24 06:51:14,0.320s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_ WATCH2BUY/button_""))",Firefox 68.0,,,2019-08-24 06:51:15,2019-08-24 06:51:17,2.367s,PASSED
+"click(findTestObject(""Object Repository/logIn/Page_/a_""))",Firefox 68.0,,,2019-08-24 06:51:17,2019-08-24 06:51:48,31.318s,FAILED

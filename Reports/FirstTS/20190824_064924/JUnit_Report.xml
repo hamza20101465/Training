@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="FirstTS" time="55" tests="2" failures="0" errors="0">
+    <testsuite name="FirstTS" tests="2" failures="0" errors="0" time="55" timestamp="2019-08-24 06:49:31" hostname="Matrix - DESKTOP-7LGR9N1" id="Test Suites/FirstTS">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Matrix\\Katalon Studio\\Training\\Reports\\FirstTS\\20190824_064924"/>
+            <property name="logFiles" value="C:\\Users\\Matrix\\Katalon Studio\\Training\\Reports\\FirstTS\\20190824_064924\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Matrix - DESKTOP-7LGR9N1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Firefox 68.0"/>
+            <property name="hostAddress" value="192.168.1.7"/>
+            <property name="sessionId" value="cdedab22-46a0-40b0-9e51-9ea48ae42f2d"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/1- logIn/1-RightTC" classname="Test Cases/1- logIn/1-RightTC" status="PASSED">
+            <system-out>2019-08-24 06:49:32 - [TEST_CASE][PASSED] - Test Cases/1- logIn/1-RightTC: Test Cases/1- logIn/1-RightTC&#xD;
+&#xD;
+2019-08-24 06:49:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-24 06:49:33 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-08-24 06:49:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-24 06:49:44 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-24 06:49:44 - [TEST_STEP][PASSED] - navigateToUrl("http://is2host.com/watch/"): Navigate to 'http://is2host.com/watch/' successfully&#xD;
+&#xD;
+2019-08-24 06:49:48 - [MESSAGE][PASSED] - Navigate to 'http://is2host.com/watch/' successfully&#xD;
+&#xD;
+2019-08-24 06:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/a_")): Object: 'Object Repository/logIn/Page_ WATCH2BUY/a_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/Page_ WATCH2BUY/a_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:49:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/input__name"), "admin@admin.com"): Text 'admin@admin.com' is set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__name'&#xD;
+&#xD;
+2019-08-24 06:49:52 - [MESSAGE][PASSED] - Text 'admin@admin.com' is set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__name'&#xD;
+&#xD;
+2019-08-24 06:49:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/input__pass"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__pass'&#xD;
+&#xD;
+2019-08-24 06:49:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__pass'&#xD;
+&#xD;
+2019-08-24 06:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/button_")): Object: 'Object Repository/logIn/Page_ WATCH2BUY/button_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/Page_ WATCH2BUY/button_' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/1- logIn/2-WrongTC" classname="Test Cases/1- logIn/2-WrongTC" status="PASSED">
+            <system-out>2019-08-24 06:49:57 - [TEST_CASE][PASSED] - Test Cases/1- logIn/2-WrongTC: Test Cases/1- logIn/2-WrongTC&#xD;
+&#xD;
+2019-08-24 06:49:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-24 06:49:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-08-24 06:50:02 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-08-24 06:50:09 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-24 06:50:09 - [TEST_STEP][PASSED] - navigateToUrl("http://is2host.com/watch/"): Navigate to 'http://is2host.com/watch/' successfully&#xD;
+&#xD;
+2019-08-24 06:50:14 - [MESSAGE][PASSED] - Navigate to 'http://is2host.com/watch/' successfully&#xD;
+&#xD;
+2019-08-24 06:50:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/a_")): Object: 'Object Repository/logIn/Page_ WATCH2BUY/a_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/Page_ WATCH2BUY/a_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:50:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/input__name"), "ahmed@admin.com"): Text 'ahmed@admin.com' is set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__name'&#xD;
+&#xD;
+2019-08-24 06:50:19 - [MESSAGE][PASSED] - Text 'ahmed@admin.com' is set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__name'&#xD;
+&#xD;
+2019-08-24 06:50:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/input__pass"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__pass'&#xD;
+&#xD;
+2019-08-24 06:50:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logIn/Page_ WATCH2BUY/input__pass'&#xD;
+&#xD;
+2019-08-24 06:50:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/logIn/Page_ WATCH2BUY/button_")): Object: 'Object Repository/logIn/Page_ WATCH2BUY/button_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/Page_ WATCH2BUY/button_' is clicked on&#xD;
+&#xD;
+2019-08-24 06:50:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed&#xD;
+&#xD;
+2019-08-24 06:50:26 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-24 06:49:31 - [TEST_SUITE][INCOMPLETE] - FirstTS: null</system-out>
+        <system-err>2019-08-24 06:49:31 - [TEST_SUITE][INCOMPLETE] - FirstTS: null</system-err>
+    </testsuite>
+</testsuites>
